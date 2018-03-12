@@ -27,6 +27,7 @@ UserMapper userMapper;
 		List<User> user = userMapper.findUserByName();
 		
 		System.out.println("user========"+user.get(0).getName());
+		System.out.println("user==哈哈哈哈"+user.get(0).getName());
 		return "ddd";
 	}
 
